@@ -17,7 +17,8 @@ module.exports = {
 
     },function(res){
       console.log('First bransh 3');
-      throw new Error(res)
+        // throw new Error(res)
+        throw new Error('Unable to fetch weather for that location')
 
     });
 
